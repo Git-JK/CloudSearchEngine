@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    username: "dorm_system"
+    password: "jinke200098cs"
+    url: "jdbc:mysql://43.143.170.221:3306/dorm_system"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+hdfs:
+  path: hdfs://43.143.251.91:9000
+  user: root
